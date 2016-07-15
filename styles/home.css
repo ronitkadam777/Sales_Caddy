@@ -1,0 +1,43 @@
+body { 
+  background: url(../images/space-1025564_960_720.jpg) no-repeat center center fixed; 
+  background-size: cover;
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  opacity: 0.7;
+  filter: Alpha(opacity=90); /* IE8 and earlier */
+}
+
+.body_inner { 
+  background: no-repeat center center fixed; 
+  background-size: cover;
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  opacity: 1;
+  filter: Alpha(opacity=90); /* IE8 and earlier */
+}
+
+.navigation-bar {
+    color: black;
+    font-weight: 900;
+    background-color:#F5E9E9
+}
+
+.numberCircle {
+    border-radius: 50%;
+    
+    width: 76px;
+    height: 76px;
+    padding: 8px;
+    
+    background: transparent;
+    border: 2px solid #666;
+    color: #666;
+    
+    font: 12px Arial, sans-serif;
+}
